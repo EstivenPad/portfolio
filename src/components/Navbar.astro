@@ -1,0 +1,48 @@
+---
+import { navLinks } from "../constants/navLiks";
+
+const { pathname } = Astro.url;
+const subpath = pathname.match(/[^\/]+/g);
+---
+
+<nav class="mt-28">
+    
+        {
+        navLinks && (
+        <ul>
+            {navLinks.map(link => (
+                <li>
+                    <a class:list={['text-slate flex items-center gap-3 group', {active: '/' === pathname || link === '/' + subpath?.[0]}]} href={`#${link}`}>
+                        <span class="flex items-center">
+                            <span class="absolute rounded-full h-2 w-2 bg-slate group-[.active]:bg-lightest_slate transition group-[.active]:translate-x-14 ease-in-out duration-500"></span>
+                            <span class="h-px w-14 bg-slate group-[.active]:bg-lightest_slate"></span>
+                        </span>
+                        <span class="group-[.active]:text-lightest_slate">{link.toUpperCase()}</span>
+                    </a>
+                </li>
+            ))}
+        </ul>
+        )}
+</nav>
+
+<style>
+a.active {
+
+}
+</style>
+
+<script>
+    function getScrollPosition() {
+    var scrollPosition = {
+        x: window.scrollX || document.documentElement.scrollLeft,
+        y: window.scrollY || document.documentElement.scrollTop
+    };
+    return scrollPosition;
+}
+
+// Example usage
+window.addEventListener('scroll', function() {
+    var scrollPos = getScrollPosition();
+    console.log("Scroll position - X: " + scrollPos.x + ", Y: " + scrollPos.y);
+});
+</script>
