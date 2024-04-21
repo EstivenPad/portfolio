@@ -1,4 +1,5 @@
-export const navLinks:string[] = [
+export const NAVLINKS:string[] = [
     'about',
-    'projects'
+    'projects',
+    'experience'
 ] 

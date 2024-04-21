@@ -13,7 +13,8 @@ export default {
 			'dark_purple': { DEFAULT: '#11001c', 100: '#030005', 200: '#06000a', 300: '#09000f', 400: '#0c0014', 500: '#11001c', 600: '#49007a', 700: '#8400db', 800: '#b13dff', 900: '#d89eff' },
 			'lightest_slate': '#ccd6f6',
 			'light_slate': '#a8b2d1',
-			'slate': '#8892b0'
+			'slate': '#8892b0',
+			'cristal': '#8892b020' 
 	 	},
 		fontFamily: {
 			sans: ['Poppins', ...defaultTheme.fontFamily.sans],

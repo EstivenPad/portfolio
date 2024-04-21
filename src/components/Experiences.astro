@@ -1,0 +1,25 @@
+---
+import { EXPERIENCES } from "../constants/experiences"
+---
+
+<section id="experience" class="max-w-lg">
+    <h3 class="text-2xl font-medium text-lightest_slate pl-5">Experience</h3>
+    <ul class="mt-2">
+        {EXPERIENCES.map(experience => (
+            <li class="flex group/list rounded-lg px-5 pt-2 pb-4 mb-6 hover:bg-cristal hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
+                <div class="h-full">
+                    <p class="text-sm">{experience.duration}</p>    
+                </div>
+
+                <div class="flex gap-2 items-center">
+                    <span class="">
+                        <h4 class="text-lg mb-1 text-lightest_slate group-hover/list:text-dark_purple-700 transition-colors duration-500">{experience.role}</h4>
+                        <p>{experience.company}</p>
+                    </span>
+        
+                    <p>{experience.responsabilities}</p>
+                </div>
+            </li>
+        ))}
+    </ul>
+</section>
