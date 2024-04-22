@@ -1,7 +1,7 @@
 ---
 interface Props {
 	title: string;
-}
+};
 
 const { title } = Astro.props;
 ---
@@ -12,13 +12,11 @@ const { title } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content="Portfolio" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" href="./src/assets/favicon-16x16.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
 	<body class="min-h-screen text-slate" style="background: radial-gradient(#400165 20%, #220135, #190028);">
 		<slot />
-		<style is:global>
-		</style>
 	</body>
 </html>

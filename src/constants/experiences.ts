@@ -8,8 +8,8 @@ interface Experiences {
 export const EXPERIENCES:Experiences[] = [
     {
         role: 'Software Developer',
-        company: 'Universidad Catolica Nordestana (UCNE)',
-        duration: 'Mar 2024 - Present',
+        company: 'Universidad Católica Nordestana (UCNE).',
+        duration: '2024 - PRESENT',
         responsabilities: 'Develop, modify and manage functions, procedures and related objects regarding with the existent systems.'
     }
 ]
