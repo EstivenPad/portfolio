@@ -1,11 +1,11 @@
-interface Projects {
+interface Project {
     name: string,
     description: string,
     technologies: string[],
     link: string
 };
 
-export const PROJECTS:Projects[] = [
+export const PROJECTS:Project[] = [
     {
         name: 'PrestameSoft Mobile App',
         description: 'A mobile app that takes part in one of my side projects about loan management, using React Native with Expo as the base platform. Integrating technologies like React Redux for state management and the implementation of Expo Router for router management. In addition, this project is connected to a RESTful API created with ASP.NET Core 8.',

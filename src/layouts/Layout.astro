@@ -12,24 +12,12 @@ const { title } = Astro.props;
 		<meta charset="UTF-8" />
 		<meta name="description" content="Portfolio" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/png" href="./src/assets/favicon-16x16.png" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="min-h-screen text-slate" style="background: radial-gradient(#400165 20%, #220135, #190028);">
+	<body class="min-h-screen text-slate">
+		<div class="-z-10 min-h-screen w-full fixed top-0 left-0" style="background: radial-gradient(#400165 20%, #220135, #190028);"></div>
 		<slot />
-		<!-- <script>
-			// Get the scrollable div
-			const scrollDiv = document.getElementById('main_content');
-			
-			// Add scroll event listener to the window
-			window.addEventListener('scroll', () => {
-			// Get the scroll position of the window
-			const scrollPosition = window.scrollY;
-		
-			// Set the scroll position of the div to match the window
-			scrollDiv.scrollTop = scrollPosition;
-			});
-		</script> -->
 	</body>
 </html>

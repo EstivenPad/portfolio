@@ -14,7 +14,7 @@ export default {
 			'lightest_slate': '#ccd6f6',
 			'light_slate': '#a8b2d1',
 			'slate': '#8892b0',
-			'cristal': '#8892b020' 
+			'cristal': '#8892b020',
 	 	},
 		fontFamily: {
 			sans: ['Poppins', ...defaultTheme.fontFamily.sans],

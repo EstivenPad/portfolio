@@ -1,11 +1,11 @@
-interface Experiences {
+interface Experience {
     role: string,
     company: string,
     duration: string,
     responsabilities: string
 }
 
-export const EXPERIENCES:Experiences[] = [
+export const EXPERIENCES:Experience[] = [
     {
         role: 'Software Developer',
         company: 'Universidad Católica Nordestana (UCNE)',
