@@ -30,7 +30,7 @@ export const WORKS:Work[] = [
         technologies: ['Astro', 'HTML & CSS', 'JavaScript', 'React'],
         link: 'https://green-field-park.netlify.app',
         github: 'https://github.com/EstivenPad/green-field-park',
-        image: './src/asset/images/green-field-park-spa.png'
+        image: 'asset/images/green-field-park-spa.png'
     },
     {
         name: 'Tic Tac Toe',
@@ -38,7 +38,7 @@ export const WORKS:Work[] = [
         technologies: ['HTML & CSS', 'JavaScript', 'React'],
         link: 'https://tic-tac-toe-react-inky.vercel.app/',
         github: 'https://github.com/EstivenPad/tic-tac-toe-react',
-        image: './src/asset/images/tic-tac-toe.png'
+        image: 'asset/images/tic-tac-toe.png'
     },
     {
         name: 'Calendar App',
@@ -46,7 +46,7 @@ export const WORKS:Work[] = [
         technologies: ['React', 'MongoDB', 'Express', 'Node.js'],
         link: 'https://calendar-react-redux-est.netlify.app',
         github: 'https://github.com/EstivenPad/calendar-react-redux',
-        image: './src/asset/images/calendar-app.png'
+        image: 'asset/images/calendar-app.png'
     },
     {
         name: 'Journal App',
@@ -54,6 +54,6 @@ export const WORKS:Work[] = [
         technologies: ['React', 'Redux', 'Firebase'],
         link: 'https://journal-app-redux-est.netlify.app',
         github: 'https://github.com/EstivenPad/journal-app-redux',
-        image: './src/asset/images/journal-app.png'
+        image: 'asset/images/journal-app.png'
     }
 ]
