@@ -1,27 +1,23 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Biography from '../components/about/Biography.astro';
-import Certifications from '../components/about/Certifications.astro';
-import Jobs from '../components/about/Jobs.astro';
+import Works from '../components/projects/Works.astro';
 ---
 
-<Layout title="About | Estiven Padilla Santos">
-    <div id="about_header" class="max-w-screen-lg mx-auto py-14">
+<Layout title="Projects | Estiven Padilla Santos">
+    <div class="max-w-screen-lg mx-auto py-14">
         <span class="group mb-3">
             <a href="/" class="inline-flex items-center">
                 <svg class="inline w-7 h-7 stroke-dark_purple-800 group-hover:-translate-x-2 duration-300 transition-transform" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 12H18M6 12L11 7M6 12L11 17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></g></svg>    
-                <h3 class="text-mg text-dark_purple-800">Back</h3>
+                <p class="text-mg text-dark_purple-800">Back</p>
             </a>
         </span>
 
         <span class="border-solid border-b-2 border-dark_purple-800">
-            <h1 class="pb-3 text-4xl font-semibold text-lightest_slate border-solid border-b-2 border-dark_purple-800">About me</h1>
+            <h1 class="pb-3 text-4xl font-semibold text-lightest_slate border-solid border-b-2 border-dark_purple-800">What I've Built</h1>
         </span>
 
-        <div id="about_content" class="max-w-4xl mx-auto">
-            <Biography/>
-            <Certifications/>
-            <Jobs/>
+        <div class="max-w-4xl mx-auto py-8">
+            <Works/>
         </div>
     </div>
 </Layout>

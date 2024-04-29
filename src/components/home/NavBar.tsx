@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { NAVLINKS } from "../constants/navLiks";
+import { NAVLINKS } from "../../constants/navLiks";
 
-export const NavBar = () => {
-
+export default function NavBar() {
     const [active, setActive] = useState<string>('about');
 
     const handleClick = (link: string):void => {

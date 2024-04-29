@@ -2,6 +2,7 @@
 import { JOBS } from "../../constants/jobs";
 ---
 
+<!-- JOBS -->
 <section>
     <span>
         <h2 class="mb-4 text-lg text-lightest_slate flex items-center gap-1">
@@ -23,8 +24,8 @@ import { JOBS } from "../../constants/jobs";
                             {experience.role} • {experience.company}
                         </p>
                         <ul class="pl-4">
-                            {experience.responsabilities.map(resp => (
-                                <li class="list-disc group-hover:text-lightest_slate transition-colors duration-500">{resp}</li>
+                            {experience.responsabilities.map(responsability => (
+                                <li class="list-disc group-hover:text-lightest_slate transition-colors duration-500">{responsability}</li>
                             ))}
                         </ul>
                     </div>
