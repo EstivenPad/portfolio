@@ -3,18 +3,18 @@ import { EXPERIENCES } from "../../constants/experiences"
 ---
 
 <section id="experience" class="max-w-lg mt-14">
-    <h2 class="text-2xl font-semibold text-lightest_slate pl-5">Experience</h2>
+    <h2 class="text-2xl font-semibold text-slate-100 pl-5">Experience</h2>
     <ul class="mt-2">
         {EXPERIENCES.map(experience => (
-            <li class="flex gap-2 group/list rounded-lg px-5 pt-2 pb-4 mb-6 hover:bg-cristal hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
-                <div class="h-full w-1/2 pt-1">
-                    <p class="text-xs group-hover/list:text-lightest_slate transition-colors duration-500">{experience.duration}</p>    
+            <li class="flex gap-2 group/list rounded-lg px-5 pt-2 pb-4 mb-6 hover:bg-[#8892b020] hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
+                <div class="w-1/2 pt-1">
+                    <p class="text-xs font-semibold group-hover/list:text-slate-100 transition-colors duration-500">{experience.duration}</p>    
                 </div>
 
-                <div class="flex flex-col">
+                <div class="flex flex-col pl-2 border-l-2 border-slate-400 group-hover/list:border-sky-400">
                     <span class="mb-2">
-                        <h4 class="text-lightest_slate group-hover/list:text-dark_purple-800 transition-colors duration-500">{experience.role}</h4>
-                        <p class="group-hover/list:text-lightest_slate transition-colors duration-500">{experience.company}</p>
+                        <h4 class="font-semibold text-slate-100 group-hover/list:text-sky-400 transition-colors duration-500">{experience.role}</h4>
+                        <p class="group-hover/list:text-slate-100 transition-colors duration-500">{experience.company}</p>
                     </span>
         
                     <p class="text-sm">{experience.responsabilities}</p>

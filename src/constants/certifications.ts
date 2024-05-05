@@ -11,7 +11,7 @@ export const CERTIFICATIONS:Certification[] = [
         date: 'Apr 2024'
     },
     {
-        name: 'Microsoft Certified: Azure Fundamentals',
+        name: 'Azure Fundamentals (AZ-900)',
         organization: 'Microsoft',
         date: 'Feb 2024'
     },

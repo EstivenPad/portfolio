@@ -5,9 +5,9 @@ import { JOBS } from "../../constants/jobs";
 <!-- JOBS -->
 <section>
     <span>
-        <h2 class="mb-4 text-lg text-lightest_slate flex items-center gap-1">
+        <h2 class="mb-4 text-lg text-slate-100 flex items-center gap-1">
             Where I've Worked
-            <svg class="w-6 h-6 inline stroke-lightest_slate" fill="#000000" width="64px" height="64px" viewBox="0 0 24 24" id="job" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="secondary" d="M16,7H8V4A1,1,0,0,1,9,3h6a1,1,0,0,1,1,1Zm1,4H7m8,0v2" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><rect id="primary" x="5" y="5" width="14" height="18" rx="1" transform="translate(26 2) rotate(90)" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></rect></g></svg>
+            <svg class="w-6 h-6 inline stroke-slate-100" fill="#000000" width="64px" height="64px" viewBox="0 0 24 24" id="job" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path id="secondary" d="M16,7H8V4A1,1,0,0,1,9,3h6a1,1,0,0,1,1,1Zm1,4H7m8,0v2" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></path><rect id="primary" x="5" y="5" width="14" height="18" rx="1" transform="translate(26 2) rotate(90)" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"></rect></g></svg>
         </h2>
     </span>
 
@@ -16,16 +16,16 @@ import { JOBS } from "../../constants/jobs";
             <li>
                 <a href="https://www.ucne.edu/p/" target="_blank" class="flex group hover:cursor-pointer">
                     <div class="self-center min-w-max">
-                        <p class="pr-4 text-xs font-semibold group-hover:text-lightest_slate transition-colors duration-500">{experience.duration}</p>
+                        <p class="pr-4 text-xs font-semibold group-hover:text-slate-100 transition-colors duration-500">{experience.duration}</p>
                     </div>
-                    <div class="border-solid border-l-2 border-dark_purple-800 pl-4">
-                        <p class="text-dark_purple-800 font-semibold">
-                            <svg class="w-4 h-4 inline stroke-dark_purple-800 group-hover:rotate-45 transition-all duration-500 ease-in-out" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13.5442 10.4558C11.8385 8.75022 9.07316 8.75022 7.36753 10.4558L4.27922 13.5442C2.57359 15.2498 2.57359 18.0152 4.27922 19.7208C5.98485 21.4264 8.75021 21.4264 10.4558 19.7208L12 18.1766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M10.4558 13.5442C12.1614 15.2498 14.9268 15.2498 16.6324 13.5442L19.7207 10.4558C21.4264 8.75021 21.4264 5.98485 19.7207 4.27922C18.0151 2.57359 15.2497 2.57359 13.5441 4.27922L12 5.82338" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    <div class="border-solid border-l-2 border-sky-400 pl-4">
+                        <p class="text-sky-400 font-semibold">
+                            <svg class="w-4 h-4 inline stroke-sky-400 group-hover:rotate-45 transition-all duration-500 ease-in-out" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M13.5442 10.4558C11.8385 8.75022 9.07316 8.75022 7.36753 10.4558L4.27922 13.5442C2.57359 15.2498 2.57359 18.0152 4.27922 19.7208C5.98485 21.4264 8.75021 21.4264 10.4558 19.7208L12 18.1766" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M10.4558 13.5442C12.1614 15.2498 14.9268 15.2498 16.6324 13.5442L19.7207 10.4558C21.4264 8.75021 21.4264 5.98485 19.7207 4.27922C18.0151 2.57359 15.2497 2.57359 13.5441 4.27922L12 5.82338" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                             {experience.role} • {experience.company}
                         </p>
                         <ul class="pl-4">
                             {experience.responsabilities.map(responsability => (
-                                <li class="list-disc group-hover:text-lightest_slate transition-colors duration-500">{responsability}</li>
+                                <li class="list-disc group-hover:text-slate-100 transition-colors duration-500">{responsability}</li>
                             ))}
                         </ul>
                     </div>
