@@ -7,7 +7,7 @@ interface Experience {
 
 export const EXPERIENCES:Experience[] = [
     {
-        role: 'Software Developer',
+        role: 'IT Department Assistant',
         company: 'Universidad Católica Nordestana (UCNE)',
         duration: '2024 - PRESENT',
         responsabilities: 'Develop, modify and manage functions, procedures and related objects regarding with the existent systems.'

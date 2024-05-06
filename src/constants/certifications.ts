@@ -16,9 +16,19 @@ export const CERTIFICATIONS:Certification[] = [
         date: 'Feb 2024'
     },
     {
+        name: 'React: De cero a experto (Hooks y MERN)',
+        organization: 'Udemy',
+        date: 'Nov 2023'
+    },
+    {
         name: 'C# (Basic)',
-        organization: 'HakerRank',
+        organization: 'HackerRank',
         date: 'Jun 2023'
+    },
+    {
+        name: 'Inglés por Inmersión para la Competitividad',
+        organization: 'Ministerio de Educación Superior, Ciencia y Tecnología (MESCyT)',
+        date: 'Dec 2022'
     },
     {
         name: 'JavaScript Algorithms and Data Structures',

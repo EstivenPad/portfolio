@@ -9,7 +9,7 @@ export default function NavBar() {
     };
 
     return (
-        <nav>
+        <nav className="hidden lg:block">
             <ul>
                 {NAVLINKS.map((link, index) => (
                     <li key={index} onClick={() => handleClick(link)} className="pb-4">

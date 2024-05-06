@@ -30,7 +30,15 @@ export const WORKS:Work[] = [
         technologies: ['Astro', 'HTML & CSS', 'JavaScript', 'React'],
         link: 'https://green-field-park.netlify.app',
         github: 'https://github.com/EstivenPad/green-field-park',
-        image: '/assets/images/green-field-park-spa.png'
+        image: '/assets/images/green-field-park-spa.webp'
+    },
+    {
+        name: 'Agrosoft',
+        description: 'Agrosoft is a computer system developed for the web platform that aims to optimize and automate the process of purchasing and selling agrochemical products in conjunction with other characteristic modules of a purchasing and selling computer system, such as users, customers, products, payments, etc. This is the final project of a subject called \"Programacion Aplicada 2\".',
+        technologies: ['Blazor', 'Bootstrap', 'JavaScript'],
+        link: '',
+        github: 'https://github.com/EstivenPad/Agrosoft',
+        image: '/assets/images/agrosoft.webp'
     },
     {
         name: 'Tic Tac Toe',
@@ -38,7 +46,7 @@ export const WORKS:Work[] = [
         technologies: ['HTML & CSS', 'JavaScript', 'React'],
         link: 'https://tic-tac-toe-react-inky.vercel.app/',
         github: 'https://github.com/EstivenPad/tic-tac-toe-react',
-        image: '/assets/images/tic-tac-toe.png'
+        image: '/assets/images/tic-tac-toe.webp'
     },
     {
         name: 'Calendar App',
@@ -46,7 +54,7 @@ export const WORKS:Work[] = [
         technologies: ['React', 'MongoDB', 'Express', 'Node.js'],
         link: 'https://calendar-react-redux-est.netlify.app',
         github: 'https://github.com/EstivenPad/calendar-react-redux',
-        image: '/assets/images/calendar-app.png'
+        image: '/assets/images/calendar-app.webp'
     },
     {
         name: 'Journal App',
@@ -54,6 +62,6 @@ export const WORKS:Work[] = [
         technologies: ['React', 'Redux', 'Firebase'],
         link: 'https://journal-app-redux-est.netlify.app',
         github: 'https://github.com/EstivenPad/journal-app-redux',
-        image: '/assets/images/journal-app.png'
+        image: '/assets/images/journal-app.webp'
     }
 ]

@@ -7,7 +7,7 @@ interface Job {
 
 export const JOBS:Job[] = [
     {
-        role: 'Software Developer',
+        role: 'IT Department Assistant',
         company: 'Universidad Católica Nordestana (UCNE)',
         duration: 'MAR 2024 - PRESENT',
         responsabilities: [
