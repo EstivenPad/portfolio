@@ -25,14 +25,6 @@ export const WORKS:Work[] = [
         image: ''
     },
     {
-        name: 'Green Field Park SPA',
-        description: 'A Single-Page Application (SPA) about a real estate project built using the Astro Framework, implementing a responsive web design, and integrating a contact form that is built with React and EmailJS.',
-        technologies: ['Astro', 'HTML & CSS', 'JavaScript', 'React'],
-        link: 'https://green-field-park.netlify.app',
-        github: 'https://github.com/EstivenPad/green-field-park',
-        image: '/assets/images/green-field-park-spa.webp'
-    },
-    {
         name: 'Agrosoft',
         description: 'Agrosoft is a computer system developed for the web platform that aims to optimize and automate the process of purchasing and selling agrochemical products in conjunction with other characteristic modules of a purchasing and selling computer system, such as users, customers, products, payments, etc. This is the final project of a subject called \"Programacion Aplicada 2\".',
         technologies: ['Blazor', 'Bootstrap', 'JavaScript'],
@@ -41,12 +33,12 @@ export const WORKS:Work[] = [
         image: '/assets/images/agrosoft.webp'
     },
     {
-        name: 'Tic Tac Toe',
-        description: 'A simple Tic-Tac-Toe game integrating React.',
-        technologies: ['HTML & CSS', 'JavaScript', 'React'],
-        link: 'https://tic-tac-toe-react-inky.vercel.app/',
-        github: 'https://github.com/EstivenPad/tic-tac-toe-react',
-        image: '/assets/images/tic-tac-toe.webp'
+        name: 'Green Field Park SPA',
+        description: 'A Single-Page Application (SPA) about a real estate project built using the Astro Framework, implementing a responsive web design, and integrating a contact form that is built with React and EmailJS.',
+        technologies: ['Astro', 'HTML & CSS', 'JavaScript', 'React'],
+        link: 'https://green-field-park.netlify.app',
+        github: 'https://github.com/EstivenPad/green-field-park',
+        image: '/assets/images/green-field-park-spa.webp'
     },
     {
         name: 'Calendar App',
@@ -63,5 +55,13 @@ export const WORKS:Work[] = [
         link: 'https://journal-app-redux-est.netlify.app',
         github: 'https://github.com/EstivenPad/journal-app-redux',
         image: '/assets/images/journal-app.webp'
+    },
+    {
+        name: 'Tic Tac Toe',
+        description: 'A simple Tic-Tac-Toe game integrating React.',
+        technologies: ['HTML & CSS', 'JavaScript', 'React'],
+        link: 'https://tic-tac-toe-react-inky.vercel.app/',
+        github: 'https://github.com/EstivenPad/tic-tac-toe-react',
+        image: '/assets/images/tic-tac-toe.webp'
     }
 ]

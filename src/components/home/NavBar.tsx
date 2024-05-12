@@ -9,11 +9,11 @@ export default function NavBar() {
     };
 
     return (
-        <nav className="hidden lg:block">
-            <ul>
+        <nav className="hidden lg:block lg:mt-12">
+            <ul className="inline-flex flex-col">
                 {NAVLINKS.map((link, index) => (
-                    <li key={index} onClick={() => handleClick(link)} className="pb-4">
-                        <a className={`flex items-center group ${(active === link) ? 'active' : ''}`} href={`#${link}`}>
+                    <li key={index} className="pb-4">
+                        <a className={`flex items-center group ${(active === link) ? 'active' : ''}`} onClick={() => handleClick(link)} href={`#${link}`}>
                             <span className="flex items-center">
                                 <span className="h-px w-10 bg-slate-400 group-[.active]:bg-slate-100 group-[.active]:scale-150 transition-all ease-in-out duration-500 group-[.active]:translate-x-1/4"></span>
                             </span>
