@@ -7,21 +7,21 @@ interface Project {
 
 export const PROJECTS:Project[] = [
     {
-        name: 'PrestameSoft Mobile App',
-        description: 'A mobile app that takes part in one of my side projects about loan management, using React Native with Expo as the base platform. Integrating technologies like React Redux for state management and the implementation of Expo Router for router management. In addition, this project is connected to a RESTful API created with ASP.NET Core 8.',
-        technologies: ['React Native', 'Redux', 'Expo Router'],
+        name: 'PrestameSoft Mobile',
+        description: 'PrestameSoft Mobile is specifically designed to streamline and simplify the management of fortnight loans. This robust application connects seamlessly with a RESTful API, enabling users to efficiently manage their loans with bi-weekly payment schedules. The app provides a user-friendly interface for tracking loan details, payment schedules, and balances, ensuring users stay informed and in control of their paid-up capital.',
+        technologies: ['Expo', 'React Native', 'Redux'],
         link: 'https://github.com/EstivenPad/react-native-prestamos'
     },
     {
-        name: 'PrestameSoft RESTful API',
-        description: 'A RESTful API design with ASP.NET Core 8 as a complement of the above project about loan management, implementing Clean Architecture, and the CQRS pattern. Also, integrate Entity Framework Core 8 for entity management within the database. All this, along with their respective unit tests and integration tests using the Moq and Shouldly packages.',
-        technologies: ['ASP.NET Core', 'Entity Framework', 'MediatR'],
+        name: 'PrestameSoft API',
+        description: 'PrestameSoft API, as part of one of my side projects, is designed to provide a comprehensive, scalable, and secure solution for managing loans. This RESTful API will enable lenders and borrowers to efficiently handle their loans, approvals, repayments, and tracking through a simple and intuitive interface.',
+        technologies: ['ASP.NET Core', 'Clean Architecture', 'CQRS'],
         link: 'https://github.com/EstivenPad/PrestameSoft.Backend'
     },
     {
         name: 'Green Field Park SPA',
-        description: 'A Single-Page Application (SPA) about a real estate project built using the Astro Framework, implementing a responsive web design, and integrating a contact form that is built with React and EmailJS.',
-        technologies: ['Astro', 'React'],
+        description: 'A single-page application (SPA) about a real estate project built using Astro that implements features like responsive web design and the management of a contact form that integrates with email notifications.',
+        technologies: ['Astro', 'HTML & CSS', 'React'],
         link: 'https://green-field-park.netlify.app'
     },
 ]
