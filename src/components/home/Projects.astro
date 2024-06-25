@@ -4,14 +4,14 @@ import { PROJECTS } from "../../constants/projects";
 
 <!-- PROJECTS -->
 
-<section id="projects" class="mt-14 max-w-screen lg:max-w-lg">
+<section id="projects" class="mt-14 mb-5 max-w-screen lg:max-w-lg">
     <div class="z-20 -mx-6 px-6 sticky top-0 backdrop-blur-sm lg:backdrop-blur-none lg:static">
-        <h2 class="pt-3 text-2xl font-semibold text-slate-100 lg:pl-5">Projects</h2>
+        <h2 class="pt-3 text-2xl font-semibold text-slate-100 lg:pl-5">Side Projects</h2>
     </div>
 
     <ul class="mt-2">
         {PROJECTS.map(project => (
-            <li class="group/list rounded-lg lg:px-5 lg:pt-2 pb-4 mb-2 lg:hover:bg-[#8892b020] lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)]">
+            <li class="group/list rounded-lg lg:px-5 lg:pt-2 pb-4 mb-2 lg:hover:bg-[#8892b020] lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-500">
                 <a href={project.link} target="_blank">
                     <span class="flex gap-2 items-center">
                         <h3 class="text-lg mb-1 text-slate-100 font-semibold group-hover/list:text-sky-400 transition-colors duration-500">{project.name}</h3>
@@ -31,7 +31,7 @@ import { PROJECTS } from "../../constants/projects";
         ))}
     </ul>
 
-    <span class="inline-block mt-2 lg:pl-5 text-sm group/link">
+    <span class="inline-block my-4 lg:pl-5 text-sm group/link">
         <a href="/work" class="font-semibold text-slate-100 group-hover/link:text-sky-400 transition-colors duration-500 group-hover/link:underline hover:cursor-pointer">
             View all projects<svg class="inline w-5 h-5 stroke-slate-100 group-hover/link:stroke-sky-400 group-hover/link:rotate-45 transition-all duration-500 group-hover/link:translate-x-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 17L17 7M17 7H8M17 7V16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
         </a>

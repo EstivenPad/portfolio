@@ -2,18 +2,21 @@ interface Job {
     role: string,
     company: string,
     duration: string,
+    url: string,
     responsabilities: string[]
 }
 
 export const JOBS:Job[] = [
     {
-        role: 'Software Developer',
+        role: 'Software Engineer',
         company: 'Universidad Católica Nordestana (UCNE)',
-        duration: 'MAR 2024 - PRESENT',
+        duration: 'SEP 2021 - PRESENT',
+        url: 'https://www.ucne.edu/p/',
         responsabilities: [
-            'Develop, modify and manage functions, procedures and related objects regarding with the existent systems.',
-            'Manage the database to provide reports to the respective departments following specify metrics.',
-            'Manage of the web portal with Joomla CMS.'
+            'Develop new features, resolve existing issues, and maintenance legacy code regarding with the existent systems.',
+            'Provide reports following specify metrics to the respective departments.',
+            'Enhance the UI of the web portal.',
+            'Manage institutional data through Office 365 administrator.'
         ]
     }
 ]

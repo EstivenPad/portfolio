@@ -8,8 +8,7 @@ import NavBar from "./home/NavBar";
         <div class="h-full w-full lg:flex flex-col justify-between max-w-lg">
             <div>
                 <h1 class="lg:mt-1 text-4xl font-semibold text-slate-100">Estiven Padilla Santos</h1>
-                <p class="text-lg sm:mt-1 text-slate-100">Software Developer</p>
-                <p class="mt-2 max-w-sm text-balance">Always learning, improving, and reflecting in every line of code.</p>
+                <p class="sm:mt-2 text-lg text-slate-100">Software Engineer</p>
                 
                 <NavBar client:load/>
             </div>
@@ -33,3 +32,7 @@ import NavBar from "./home/NavBar";
             </ul>
         </div>
 </header>
+
+<script is:inline>
+    window.ScrollReveal().reveal('.name-header', { delay: 200, easing: 'ease-in-out' })
+</script>

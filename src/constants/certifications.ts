@@ -46,7 +46,7 @@ export const CERTIFICATIONS:Certification[] = [
         name: 'NDG Linux Unhatched',
         organization: 'Cisco Networking Academy',
         date: 'Mar 2021',
-        link: ''
+        link: 'https://www.linkedin.com/in/estivenpad/'
     },
     {
         name: 'Introduction to Cybersecurity',
@@ -58,6 +58,6 @@ export const CERTIFICATIONS:Certification[] = [
         name: 'SCRUM Foundation Professional Certificate (SFPC)',
         organization: 'CertiProf',
         date: 'Jun 2020',
-        link: ''
+        link: 'https://www.linkedin.com/in/estivenpad/'
     },
 ]
