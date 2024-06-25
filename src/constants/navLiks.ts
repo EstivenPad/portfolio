@@ -1,5 +1,5 @@
 export const NAVLINKS:string[] = [
     'about',
-    'projects',
-    'experience'
+    'experience',
+    'projects'
 ] 
