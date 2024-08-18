@@ -9,20 +9,28 @@ interface Work {
 
 export const WORKS:Work[] = [
     {
+        name: 'MyPatient',
+        description: 'An ASP.NET Core MVC project designed to streamline and enhance the management of a Dr. Francisco E. Moscoso Puello Hospital\'s surgery department. The system facilitates the efficient handling of patient information, medical orders, and scheduling of daily guards. Additionally, it provides robust reporting capabilities, including quarterly reports on the surgeries performed by each doctor.',
+        technologies: ['ASP.NET Core', 'MVC', 'Bootstrap'],
+        link: '',
+        github: 'https://github.com/EstivenPad/MyPatient',
+        image: '/assets/images/mypatient.webp'
+    },
+    {
+        name: 'Green Field Park',
+        description: 'A real estate landing page project developed using the Astro web framework, featuring responsive design and a contact form seamlessly integrated with the EmailJS API for efficient communication management.',
+        technologies: ['Astro', 'HTML', 'CSS', 'JavaScript'],
+        link: 'https://green-field-park.netlify.app',
+        github: 'https://github.com/EstivenPad/green-field-park',
+        image: '/assets/images/green-field-park-spa.webp'
+    },
+    {
         name: 'PrestameSoft API',
         description: 'PrestameSoft API, as part of one of my side projects, is designed to provide a comprehensive, scalable, and secure solution for managing loans. This RESTful API enables users to efficiently handle and track their loans, payments, and defaults, through a simple and secure interface.',
         technologies: ['ASP.NET Core', 'Clean Architecture', 'CQRS'],
         link: '',
         github: 'https://github.com/EstivenPad/PrestameSoft.Backend',
         image: ''
-    },
-    {
-        name: 'Green Field Park SPA',
-        description: 'A single-page application (SPA) about a real estate project built using Astro that implements features like responsive web design and the management of a contact form that integrates with email notifications. ',
-        technologies: ['Astro', 'HTML & CSS', 'React'],
-        link: 'https://green-field-park.netlify.app',
-        github: 'https://github.com/EstivenPad/green-field-park',
-        image: '/assets/images/green-field-park-spa.webp'
     },
     {
         name: 'Agrosoft',
