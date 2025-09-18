@@ -25,12 +25,6 @@ export const CERTIFICATIONS:Certification[] = [
         link: 'https://www.udemy.com/certificate/UC-1f4c2e09-0ef2-48ff-b768-47e9a0c7887d/'
     },
     {
-        name: 'C# (Basic)',
-        organization: 'HackerRank',
-        date: 'Jun 2023',
-        link: 'https://www.hackerrank.com/certificates/df3f626eba73'
-    },
-    {
         name: 'Inglés por Inmersión para la Competitividad',
         organization: 'Ministerio de Educación Superior, Ciencia y Tecnología (MESCyT)',
         date: 'Dec 2022',

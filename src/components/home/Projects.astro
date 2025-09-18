@@ -10,7 +10,7 @@ import { PROJECTS } from "../../constants/projects";
     </div>
 
     <ul class="mt-2">
-        {PROJECTS.map(project => (
+        {PROJECTS.slice(0, 3).map(project => (
             <li class="group/list rounded-lg lg:px-5 lg:pt-2 pb-4 mb-2 lg:hover:bg-[#8892b020] lg:hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] transition-all duration-500">
                 <a href={project.link} target="_blank">
                     <span class="flex gap-2 items-center">

@@ -8,12 +8,14 @@ interface Job {
 
 export const JOBS:Job[] = [
     {
-        role: 'Full-Stack Developer',
-        company: 'XpertCode',
+        role: 'Web Developer',
+        company: 'XpertCode • Claro Dominicana (Contractor)',
         duration: 'MAR 2025 - PRESENT',
         url: 'https://xpertcode.com.do/',
         responsabilities: [
-            'Work at Claro Dominicana a telecommunications company as contractor, contributing to the Claro Dominicana E-Commerce project.'
+            'Collaborate with the Claro E-commerce team as part of the optimization subteam, focusing on enhacing existing platform features',
+            'Improve UI components following the design consistency and enhancing user experience.',
+            'Resolve identified bugs and technical issues to maintain system reliability.'
         ]
     },
     {
